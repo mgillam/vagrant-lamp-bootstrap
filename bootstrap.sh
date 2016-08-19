@@ -10,6 +10,7 @@ sudo mkdir "/var/www/html/${PROJECTFOLDER}"
 # update / upgrade
 sudo apt-get update
 sudo apt-get -y upgrade
+sudo apt-get install -y curl
 
 # install apache 2.5 and php 5.5
 sudo apt-get install -y apache2
